@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var selection: AppScreen? = .backyards
+    
     var body: some View {
-        AppTabView(selection: .constant(.birds))
+        AppTabView(selection: $selection)
     }
 }
 

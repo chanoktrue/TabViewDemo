@@ -15,3 +15,7 @@ struct TabViewDemoApp: App {
         }
     }
 }
+
+#Preview(body: {
+    ContentView()
+})

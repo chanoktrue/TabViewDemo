@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD8E90D82B4CB29300740AC2 /* BackyardNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8E90D72B4CB29300740AC2 /* BackyardNavigationStackView.swift */; };
+		CD8E90DA2B4CB36900740AC2 /* BirdsNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8E90D92B4CB36900740AC2 /* BirdsNavigationStackView.swift */; };
+		CD8E90DC2B4CBCD100740AC2 /* BirdDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8E90DB2B4CBCD100740AC2 /* BirdDetailScreen.swift */; };
+		CD8E90DE2B4CBE1300740AC2 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8E90DD2B4CBE1300740AC2 /* Router.swift */; };
 		CDFD21AD2B461AFD00A80301 /* TabViewDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD21AC2B461AFD00A80301 /* TabViewDemoApp.swift */; };
 		CDFD21AF2B461AFD00A80301 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD21AE2B461AFD00A80301 /* ContentView.swift */; };
 		CDFD21B12B461AFF00A80301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFD21B02B461AFF00A80301 /* Assets.xcassets */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD8E90D72B4CB29300740AC2 /* BackyardNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackyardNavigationStackView.swift; sourceTree = "<group>"; };
+		CD8E90D92B4CB36900740AC2 /* BirdsNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsNavigationStackView.swift; sourceTree = "<group>"; };
+		CD8E90DB2B4CBCD100740AC2 /* BirdDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdDetailScreen.swift; sourceTree = "<group>"; };
+		CD8E90DD2B4CBE1300740AC2 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		CDFD21A92B461AFD00A80301 /* TabViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFD21AC2B461AFD00A80301 /* TabViewDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDemoApp.swift; sourceTree = "<group>"; };
 		CDFD21AE2B461AFD00A80301 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				CDFD21BB2B461C9000A80301 /* AppScreenModel.swift */,
+				CD8E90DD2B4CBE1300740AC2 /* Router.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -85,6 +94,9 @@
 			children = (
 				CDFD21BE2B4647A900A80301 /* AppTabView.swift */,
 				CDFD21AE2B461AFD00A80301 /* ContentView.swift */,
+				CD8E90D72B4CB29300740AC2 /* BackyardNavigationStackView.swift */,
+				CD8E90D92B4CB36900740AC2 /* BirdsNavigationStackView.swift */,
+				CD8E90DB2B4CBCD100740AC2 /* BirdDetailScreen.swift */,
 			);
 			path = VIews;
 			sourceTree = "<group>";
@@ -159,9 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD8E90DE2B4CBE1300740AC2 /* Router.swift in Sources */,
+				CD8E90DA2B4CB36900740AC2 /* BirdsNavigationStackView.swift in Sources */,
 				CDFD21BC2B461C9000A80301 /* AppScreenModel.swift in Sources */,
 				CDFD21AF2B461AFD00A80301 /* ContentView.swift in Sources */,
+				CD8E90D82B4CB29300740AC2 /* BackyardNavigationStackView.swift in Sources */,
 				CDFD21BF2B4647A900A80301 /* AppTabView.swift in Sources */,
+				CD8E90DC2B4CBCD100740AC2 /* BirdDetailScreen.swift in Sources */,
 				CDFD21AD2B461AFD00A80301 /* TabViewDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
