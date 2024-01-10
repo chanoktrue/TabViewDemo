@@ -17,4 +17,5 @@ enum PlantRouter {
 @Observable
 class Router{
     var birdRoutes: [BirdRoute] = []
+    var plantRoutes: [PlantRouter] = []
 }

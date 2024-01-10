@@ -15,12 +15,17 @@ enum BirdRoute: Hashable {
 
 struct BirdsNavigationStackView: View {
     
-    @State private var routes: [BirdRoute] = []
+//    @State private var routes: [BirdRoute] = []
+    @Environment(Router.self) private var router
     
     var body: some View {
-        NavigationStack(path: $routes) {
+        
+        @Bindable var router = router
+        
+        NavigationStack(path: $router.birdRoutes) {
             Button("Go to bird detail") {
-                routes.append(.detail("Sparrow"))
+//                routes.append(.detail("Sparrow"))
+                router.birdRoutes.append(.detail("sparrow"))
             }.navigationDestination(for: BirdRoute.self) { route in
                 switch route {
                 case .home:

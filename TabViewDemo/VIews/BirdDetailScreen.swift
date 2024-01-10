@@ -9,13 +9,18 @@ import SwiftUI
 
 struct BirdDetailScreen: View {
     
+    @Environment(Router.self) private var router
+    
     let name: String
     
     var body: some View {
-        Text(name)
+        Button("Bird Photo Screen") {
+            router.birdRoutes.append(.home)
+        }
     }
 }
 
 #Preview {
     BirdDetailScreen(name: "name...")
+        .environment(Router())
 }
